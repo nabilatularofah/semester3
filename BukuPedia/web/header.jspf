@@ -1,0 +1,11 @@
+<div style="display: flex; flex-direction: column; padding: 20px 0 60px 0; justify-content: center; align-items: center;">
+    <img src="logo bukupedia.png" alt="logo bukupedia" height="250" width="250"/>
+    <h2 style="margin: 0; margin-top: 20px;">Selamat Datang di BukuPedia</h2>
+    <h4 style="margin: 0; margin-top: 5px">Order now dan dapatkan harga yang lebih murah!</h4>
+
+    <form method="GET" action="index.jsp" style="margin: 0; margin-top: 20px;">
+        <input type="hidden" name="action" value="search">
+        <input type="text" name="keyword" placeholder="Cari buku...">
+        <input type="submit" value="Cari">
+    </form>
+</div>
